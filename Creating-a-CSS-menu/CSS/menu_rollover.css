@@ -1,5 +1,5 @@
 body {
-    background: #184352
+    background: #184352;
 }
 
 .wrap {
@@ -15,7 +15,7 @@ body {
     /*To the top edge of the screen*/
     position: absolute;
     width: 100%;
-    background-color: #184352
+    background-color: #184352;
 }
 
 .menu {
@@ -50,7 +50,7 @@ body {
     opacity: 1;
     /*While hovered, drop-down menu hides 
     This also avoids a block-level bug*/
-    visibility: hidden;
+    visibility: visible;
 }
 
 .submenu {
