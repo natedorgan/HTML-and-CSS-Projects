@@ -2,8 +2,8 @@
 Here are sample websites I made using HTML and CSS.
 
 # Projects
-Space Station Site
-Movie Theater Site
+[Space Station Site](https://github.com/natedorgan/HTML-and-CSS-Projects/blob/main/BasicWebsiteProject/index.html)
+[Movie Theater Site](https://github.com/natedorgan/HTML-and-CSS-Projects/blob/main/bootstrap4_project/academy_cinemas.html)
 
 # Space Station Site
 
