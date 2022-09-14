@@ -3,6 +3,7 @@
 	<head>
 		<title> Common Nightmares and Why We Have Them </title>
 		<link rel="stylesheet" type="text/css" href="./CSS/one_page_website.css">
+		<script type="text/javascript" src="./JS/one_page_website.js"></script>
 		<meta charset="utf-8">
 	</head>
 	<body>
@@ -23,7 +24,69 @@
 		</div>
 		<!--END HOME -->
 		
-		<!-- GALLERY -->
+		<!-- Images used to open the lightbox -->
+		<div class="row">
+			<div class="column">
+	  			<img src="./images/thumb/thumbnail_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" width="420" height="315">
+			</div>
+			<div class="column">
+	  			<img src="./images/thumb/thumbnail_2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" width="420" height="315">
+			</div>
+			<div class="column">
+	  			<img src="./images/thumb/thumbnail_3.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow" width="420" height="315">
+			</div>
+  		</div>
+  
+  		<!-- The Modal/Lightbox -->
+  		<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
+  
+	  	<div class="mySlides">
+			<div class="numbertext">1 / 4</div>
+			<img src="./images/thumb/thumbnail_1.jpg" width="100%">
+	  	</div>
+  
+	  	<div class="mySlides">
+			<div class="numbertext">2 / 4</div>
+			<img src="./images/thumb/thumbnail_2.jpg" width="100%">
+	  	</div>
+  
+	  	<div class="mySlides">
+			<div class="numbertext">3 / 4</div>
+			<img src="./images/thumb/thumbnail_3.jpeg" width="100%">
+	  	</div>
+  
+	  	<div class="mySlides">
+			<div class="numbertext">4 / 4</div>
+			<img src="img4_wide.jpg" style="width:100%">
+	  	</div>
+  
+	  	<!-- Next/previous controls -->
+	  	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	  	<!-- Caption text -->
+	  	<div class="caption-container">
+			<p id="caption"></p>
+	  	</div>
+  
+	  	<!-- Thumbnail image controls -->
+	  	<div class="column">
+			<img class="demo" width="210" height="157" src="./images/thumb/small1.jpg" onclick="currentSlide(1)" alt="1">
+	  	</div>
+  
+	  	<div class="column">
+			<img class="demo" width="210" height="157" src="./images/thumb/small2.jpg" onclick="currentSlide(2)" alt="2">
+	  	</div>
+  
+	  	<div class="column">
+			<img class="demo" width="210" height="157" src="./images/thumb/small3.jpg" onclick="currentSlide(3)" alt="3">
+	  	</div>
+  
+		</div>
+  </div>
+  <!-- GALLERY -->
 		<section>
 			<div id="gallery">
 				<h1>Gallery</h1>
